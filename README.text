@@ -1,1 +1,19 @@
+VER: https://fabrizio951.github.io/semana2/index.html
 
+Primero creamos el html. Enlazamos nuestro archivo CSS: <link rel="stylesheet" href="style.css" />
+
+En el archivo CSS. Definino el fondo <body> utilizando el color #f6fafe. A continuación, establecemos algunas reglas generales con (*), eliminar los márgenes y el relleno predeterminados y usar la fuente Manrope.
+
+Dentro del <body>, creamos un contenedor principal con la clase .contenedor. Esto nos permite centrar y organizar el contenido de manera adecuada. Dentro de este contenedor, colocamos varios elementos utilizando (div) y otros elementos de HTML, como encabezados (<h1>, <h2>) y párrafos (<p>).
+
+Aplicamos estilos específicos a los elementos de contenido para mejorar su apariencia. Por ejemplo, el encabezado principal tiene la clase .title y se le asigna un tamaño de fuente grande, un peso de fuente negrita y un color oscuro (#121f3f). De manera similar, el párrafo utiliza la clase .parrafo y se le asigna un tamaño de fuente más pequeño y un color más claro (#98a0b4).
+
+Creamos un grupo de botones utilizando la clase .botones. Estos botones se presentan como elementos <button> y se colocan uno al lado del otro. Al hacer clic en estos botones, se activa una función JavaScript.
+
+Se crea una sección de planes de precios utilizando la clase .Planes-grupo. Dividimos los planes en tres columnas (div con las clases .plan-lado y .plan-medio) y los llenamos con contenido, como títulos, descripciones y precios.
+
+Aplicamos estilos específicos a los planes de precios para hacerlos visualmente atractivos. Utilizamos diferentes clases, como .plan-titulo-lado y .plan-texto-medio, para dar formato y diseño a los elementos. También utilizamos iconos de la biblioteca Font Awesome para agregar símbolos de verificación a los elementos de lista.
+
+Cada plan de precios tiene un botón de llamada a la acción. Estos botones tienen diferentes estilos dependiendo del tipo de plan.
+
+Finalmente, para mejorar la funcionalidad y apariencia de la página, incluimos la biblioteca Font Awesome utilizando el enlace <script> proporcionado.
