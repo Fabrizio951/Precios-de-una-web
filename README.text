@@ -1,19 +1,51 @@
 VER: https://fabrizio951.github.io/semana2/index.html
 
-Primero creamos el html. Enlazamos nuestro archivo CSS: <link rel="stylesheet" href="style.css" />
+Descripción del Proyecto:
+Este proyecto consiste en la creación de una página web que muestra diferentes planes de suscripción para un servicio. Los usuarios pueden seleccionar entre tres opciones de planes (Freemium, Pro y Business) y obtener información detallada sobre cada uno de ellos. El objetivo es ayudar a los usuarios a elegir el plan que mejor se adapte a sus necesidades.
 
-En el archivo CSS. Definino el fondo <body> utilizando el color #f6fafe. A continuación, establecemos algunas reglas generales con (*), eliminar los márgenes y el relleno predeterminados y usar la fuente Manrope.
+Estructura del Código:
+El proyecto consta de un archivo HTML y un archivo CSS.
 
-Dentro del <body>, creamos un contenedor principal con la clase .contenedor. Esto nos permite centrar y organizar el contenido de manera adecuada. Dentro de este contenedor, colocamos varios elementos utilizando (div) y otros elementos de HTML, como encabezados (<h1>, <h2>) y párrafos (<p>).
+Index:
+Una etiqueta <head> que incluye la configuración del metadato de codificación de caracteres y enlaces a archivos externos.
+El cuerpo de la página (<body>) contiene un contenedor principal (<main>) que engloba todo el contenido de la página.
+Dentro del contenedor principal, se encuentra un <div> con la clase "contenedor" que agrupa todos los elementos del formulario de suscripción.
+Los elementos del formulario de suscripción incluyen:
+Un encabezado (<h1>) con la clase "title" que muestra el título "Choose a Plan That's Right For You".
+Un párrafo (<p>) con la clase "parrafo" que proporciona una breve descripción del propósito del formulario.
+Un conjunto de botones de selección ("Bill Monthly" y "Bill Yearly") con las clases "btn-mov" y los identificadores "btn-a" y "btn-b", respectivamente.
+Una sección de planes (<div> con la clase "Planes-grupo") que contiene tres planes diferentes (Freemium, Pro y Business).
+Cada plan tiene un título (<h2>) con las clases "plan-titulo-lado" (para el plan Freemium) y "plan-titulo-medio" (para los planes Pro y Business), un párrafo de descripción (<p>) con las clases "plan-texto" (para el plan Freemium) y "plan-texto-medio" (para los planes Pro y Business), y detalles del plan, incluyendo el precio (<p>) con las clases "precio" y "plan-precio" (para el plan Freemium y Business) y "plan-precio-medio" (para el plan Pro).
+Además, cada plan tiene una lista de características (<ul>) con la clase "item" y elementos de lista (<li>) que incluyen iconos (<i>) y descripciones de características.
+Cada plan también tiene un botón para realizar la acción correspondiente ("Signup for free" para el plan Freemium, "Save $50 a year" para el plan Pro y "Go to Business" para el plan Business).
 
-Aplicamos estilos específicos a los elementos de contenido para mejorar su apariencia. Por ejemplo, el encabezado principal tiene la clase .title y se le asigna un tamaño de fuente grande, un peso de fuente negrita y un color oscuro (#121f3f). De manera similar, el párrafo utiliza la clase .parrafo y se le asigna un tamaño de fuente más pequeño y un color más claro (#98a0b4).
-
-Creamos un grupo de botones utilizando la clase .botones. Estos botones se presentan como elementos <button> y se colocan uno al lado del otro. Al hacer clic en estos botones, se activa una función JavaScript.
-
-Se crea una sección de planes de precios utilizando la clase .Planes-grupo. Dividimos los planes en tres columnas (div con las clases .plan-lado y .plan-medio) y los llenamos con contenido, como títulos, descripciones y precios.
-
-Aplicamos estilos específicos a los planes de precios para hacerlos visualmente atractivos. Utilizamos diferentes clases, como .plan-titulo-lado y .plan-texto-medio, para dar formato y diseño a los elementos. También utilizamos iconos de la biblioteca Font Awesome para agregar símbolos de verificación a los elementos de lista.
-
-Cada plan de precios tiene un botón de llamada a la acción. Estos botones tienen diferentes estilos dependiendo del tipo de plan.
-
-Finalmente, para mejorar la funcionalidad y apariencia de la página, incluimos la biblioteca Font Awesome utilizando el enlace <script> proporcionado.
+CSS:
+Importación de la fuente de Google Fonts "Manrope".
+Establecimiento de estilos generales para el cuerpo de la página, como el fondo (background), el margen (margin), el relleno (padding) y la fuente (font-family).
+Estilos para el contenedor principal con la clase "contenedor", incluyendo la alineación (display, flex-direction, align-items, justify-content), el tamaño máximo de altura (max-height) y el relleno (padding).
+Estilos para el título con la clase "title", incluyendo la alineación del texto (text-align), el tamaño de fuente (font-size), el peso de la fuente (font-weight) y el color del texto (color).
+Estilos para el párrafo con la clase "parrafo", incluyendo la alineación del texto (text-align), el tamaño de fuente (font-size), el peso de la fuente (font-weight) y el color del texto (color).
+Estilos para los botones de selección con la clase "btn-mov", incluyendo el fondo (background-color), el borde (border), el cursor (cursor), el tamaño (width, height), y el enfoque (:focus).
+Estilos para los botones de selección cuando están en foco, incluyendo el color de fondo (background-color) y la transición de color (transition).
+Estilos para el botón deslizante (btn-slide), incluyendo el fondo (background-color), el tamaño (width, height), el radio de borde (border-radius), la posición (position, top, left), el z-index y la transición de posición (transition).
+Estilos para la sección de planes con la clase "Planes-grupo", incluyendo la alineación (display, align-items, margin-top) y el espacio entre elementos (gap).
+Estilos para los planes laterales con la clase "plan-lado", incluyendo la alineación del texto (text-align), el fondo (background-color), el radio de borde (border-radius), el relleno (padding) y la altura (height).
+Estilos para el título de los planes laterales con la clase "plan-titulo-lado", incluyendo el color del texto (color), el tamaño de fuente (font-size) y el peso de la fuente (font-weight).
+Estilos para el texto de los planes laterales con la clase "plan-texto", incluyendo el color del texto (color) y el tamaño de fuente (font-size).
+Estilos para el precio de los planes laterales con la clase "precio", incluyendo el color del texto (color), el peso de la fuente (font-weight) y el tamaño de fuente (font-size).
+Estilos para la lista de características con la clase "item", incluyendo la eliminación de los estilos de lista (list-style), el peso de la fuente (font-weight) y el tamaño de fuente (font-size).
+Estilos para el contenido de la lista con la clase "list-content", incluyendo la alineación del texto (text-align).
+Estilos para los íconos de características con la clase "fa-circle-check", incluyendo el color (color) y el margen (margin).
+Estilos para el contenido del plan con la clase "plan-contenido", incluyendo el fondo (background-color), el radio de borde (border-radius) y el relleno (padding).
+Estilos para el plan medio con la clase "plan-medio", incluyendo el fondo (background-color), el radio de borde (border-radius), la alineación del texto (text-align) y el relleno (padding).
+Estilos para el título del plan medio con la clase "plan-titulo-medio", incluyendo el color del texto (color), el tamaño de fuente (font-size) y el peso de la fuente (font-weight).
+Estilos para el texto del plan medio con la clase "plan-texto-medio", incluyendo el color del texto (color) y el tamaño de fuente (font-size).
+Estilos para el precio del plan medio con la clase "plan-precio-medio", incluyendo el color del texto (color), el peso de la fuente (font-weight) y el tamaño de fuente (font-size).
+Estilos para el contenido del plan medio con la clase "plan-contenido-medio", incluyendo el fondo (background-color), el radio de borde (border-radius) y el relleno (padding).
+Estilos para el precio del plan con la clase "plan-precio", incluyendo el margen (margin).
+Estilos para los superíndices (cp sup) en los precios, incluyendo el tamaño de fuente (font-size), la alineación vertical (vertical-align), el margen derecho (margin-right) y el margen inferior (margin-bottom).
+Estilos para los botones generales con la clase "btn", incluyendo el borde (border), el radio de borde (border-radius), el relleno (padding) y el cursor (cursor).
+Estilos para el botón azul con la clase "btn-azul", incluyendo el margen superior (margin-top), el color de fondo (background-color) y el color del texto (color).
+Estilos para el botón blanco con la clase "btn-white", incluyendo el margen superior (margin-top y margin-bottom), el color de fondo (background-color).
+Estilos para el botón azul claro con la clase "btn-blue", incluyendo el color de fondo (background-color) y el color del texto (color).
+Estos son solo algunos de los estilos presentes en el archivo CSS. Hay otros estilos definidos en el código que contribuyen al diseño visual de la página.
