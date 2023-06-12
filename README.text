@@ -1,7 +1,7 @@
 VER: https://fabrizio951.github.io/semana2/index.html
 
 Descripción del Proyecto:
-Este proyecto consiste en la creación de una página web que muestra diferentes planes de suscripción para un servicio. Los usuarios pueden seleccionar entre tres opciones de planes (Freemium, Pro y Business) y obtener información detallada sobre cada uno de ellos. El objetivo es ayudar a los usuarios a elegir el plan que mejor se adapte a sus necesidades.
+Este proyecto consiste en la creación de una página web que muestra diferentes planes de suscripción para un servicio. Se pueden seleccionar entre tres opciones de planes (Freemium, Pro y Business) y obtener información detallada sobre cada uno de ellos.
 
 Estructura del Código:
 El proyecto consta de un archivo HTML y un archivo CSS.
