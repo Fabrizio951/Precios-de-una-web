@@ -25,10 +25,10 @@ Establecimiento de estilos generales para el cuerpo de la página, como el fondo
 De los cambios principales para el diseño esta:
 El contenedor principal con la clase "contenedor", incluyendo la alineación (display, flex-direction, align-items, justify-content), el tamaño máximo de altura (max-height) y el relleno (padding).
 El título con la clase "title", incluyendo la alineación del texto (text-align), el tamaño de fuente (font-size), el peso de la fuente (font-weight) y el color del texto (color).
-Estilos para el botón deslizante (btn-slide), incluyendo el fondo (background-color), el tamaño (width, height), el radio de borde (border-radius), la posición (position, top, left), el z-index y la transición de posición (transition).
-Estilos para la sección de planes con la clase "Planes-grupo", incluyendo la alineación (display, align-items, margin-top) y el espacio entre elementos (gap).
-Estilos para los planes laterales con la clase "plan-lado", incluyendo la alineación del texto (text-align), el fondo (background-color), el radio de borde (border-radius), el relleno (padding) y la altura (height).
-Estilos para el título de los planes laterales con la clase "plan-titulo-lado", incluyendo el color del texto (color), el tamaño de fuente (font-size) y el peso de la fuente (font-weight).
-Estilos para el texto de los planes laterales con la clase "plan-texto", incluyendo el color del texto (color) y el tamaño de fuente (font-size).
-Estilos para el plan medio con la clase "plan-medio", incluyendo el fondo (background-color), el radio de borde (border-radius), la alineación del texto (text-align) y el relleno (padding).
+El botón deslizante (btn-slide), incluyendo el fondo (background-color), el tamaño (width, height), el radio de borde (border-radius), la posición (position, top, left), el z-index y la transición de posición (transition).
+La sección de planes con la clase "Planes-grupo", incluyendo la alineación (display, align-items, margin-top) y el espacio entre elementos (gap).
+Los planes laterales con la clase "plan-lado", incluyendo la alineación del texto (text-align), el fondo (background-color), el radio de borde (border-radius), el relleno (padding) y la altura (height).
+El título de los planes laterales con la clase "plan-titulo-lado", incluyendo el color del texto (color), el tamaño de fuente (font-size) y el peso de la fuente (font-weight).
+El texto de los planes laterales con la clase "plan-texto", incluyendo el color del texto (color) y el tamaño de fuente (font-size).
+El plan medio con la clase "plan-medio", incluyendo el fondo (background-color), el radio de borde (border-radius), la alineación del texto (text-align) y el relleno (padding).
 Estos son solo algunos de los estilos presentes en el archivo CSS. Hay otros estilos definidos en el código que contribuyen al diseño visual de la página.
