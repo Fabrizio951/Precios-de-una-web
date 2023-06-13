@@ -1,12 +1,15 @@
 VER: https://fabrizio951.github.io/semana2/index.html
 
 Descripción del Proyecto:
+
 Este proyecto consiste en la creación de una página web que muestra diferentes planes de suscripción para un servicio. Se pueden seleccionar entre tres opciones de planes (Freemium, Pro y Business) y obtener información detallada sobre cada uno de ellos.
 
 1. Estructura del Código:
+
 El proyecto consta de un archivo HTML y un archivo CSS.
 
 2. Crear archivo HTML:
+
 Una etiqueta <head> que incluye la configuración del metadato de codificación de caracteres y enlaces a archivos externos.
 El cuerpo de la página (<body>) contiene un contenedor principal (<main>) que engloba todo el contenido de la página.
 Dentro del contenedor principal, se encuentra un <div> con la clase "contenedor" que agrupa todos los elementos del formulario de suscripción.
@@ -20,6 +23,7 @@ Además, cada plan tiene una lista de características (<ul>) con la clase "item
 Cada plan también tiene un botón para realizar la acción correspondiente ("Signup for free" para el plan Freemium, "Save $50 a year" para el plan Pro y "Go to Business" para el plan Business).
 
 3. Crear arhivo CSS:
+  
 Importación de la fuente de Google Fonts "Manrope".
 Establecimiento de estilos generales para el cuerpo de la página, como el fondo (background), el margen (margin), el relleno (padding) y la fuente (font-family).
 De los cambios principales para el diseño esta:
